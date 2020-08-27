@@ -2,10 +2,10 @@
 
 ```
 src/
-├── roborts_base					          #机器人基础功能包  
-├── roborts_bringup					        #启动功能包，对其内部map/的地图做了更换，更改rviz/roborts.rviz的主题订阅  
-├── roborts_camera					        #相机功能包  
-├── roborts_common					        #错误信息、接口、算法等普适的文件  
+├── roborts_base                    #机器人基础功能包  
+├── roborts_bringup                 #启动功能包，对其内部map/的地图做了更换，更改rviz/roborts.rviz的主题订阅  
+├── roborts_camera                  #相机功能包  
+├── roborts_common                  #错误信息、接口、算法等普适的文件  
 ├── roborts_costmap           		  #代价地图功能包，为路径规划器提供地图信息。  
 ├── roborts_decision                #决策功能包  
 ├── roborts_detection               #侦察敌方机器人等算法  
