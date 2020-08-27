@@ -13,7 +13,7 @@ src/
 ├── roborts_msgs					          #消息定义文件  
 ├── roborts_planning				        #路径规划功能包，调整局部规划器为teb算法，采用LINE模型，并调节相关参数  
 ├── roborts_tracking				        #追踪、预测功能包  
-├── pics							              #README图片  
+├── pics		#README图片  
 ```  
 ##重点改进
 **修改了roborts_costmap/obstacle_layer.cpp和roborts_costmap/obstacle_layer.h两个文件，加入设置惩罚区函数
