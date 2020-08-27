@@ -6,14 +6,14 @@ src/
 ├── roborts_bringup                 #启动功能包，对其内部map/的地图做了更换，更改rviz/roborts.rviz的主题订阅  
 ├── roborts_camera                  #相机功能包  
 ├── roborts_common                  #错误信息、接口、算法等普适的文件  
-├── roborts_costmap           		  #代价地图功能包，为路径规划器提供地图信息。  
+├── roborts_costmap                 #代价地图功能包，为路径规划器提供地图信息。  
 ├── roborts_decision                #决策功能包  
 ├── roborts_detection               #侦察敌方机器人等算法  
 ├── roborts_localization            #传感器和定位功能包  
-├── roborts_msgs					          #消息定义文件  
-├── roborts_planning				        #路径规划功能包，调整局部规划器为teb算法，采用LINE模型，并调节相关参数  
-├── roborts_tracking				        #追踪、预测功能包  
-├── pics		#README图片  
+├── roborts_msgs                    #消息定义文件  
+├── roborts_planning                #路径规划功能包，调整局部规划器为teb算法，采用LINE模型，并调节相关参数  
+├── roborts_tracking                #追踪、预测功能包  
+├── pics                            #README图片  
 ```  
 ##重点改进
 **修改了roborts_costmap/obstacle_layer.cpp和roborts_costmap/obstacle_layer.h两个文件，加入设置惩罚区函数
