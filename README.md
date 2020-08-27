@@ -105,7 +105,7 @@ src/
 
 ![test_result1](pics/planning1.gif)
 ![test_result2](pics/planning2.gif)
-![test_result3](pics/planning3.gif)
+![test_result3](pics/planing3.gif)
 
 ##代码规范
 本程序代码规范遵循驼峰命名法。
